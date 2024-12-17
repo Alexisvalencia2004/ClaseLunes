@@ -1,0 +1,239 @@
+@font-face{
+    font-family:Super ;
+    src: url('../fonts/Super.ttf');
+}
+
+@font-face{
+    font-family:Elaine ;
+    src: url('../fonts/Elaine.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(352deg, rgba(249,142,11,1) 0%, rgba(248,249,11,1) 50%, rgba(254,157,0,1) 100%);
+    color: #2b2a2a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    margin-bottom: 20px;  
+    
+}
+
+header h1{
+    font-family: Super;
+    font-size: 70px;
+    font-size: 5rem;
+    color:#000000;
+}
+.card-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+/* .card{
+    background-color: #dafdcf;
+    border:1px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    transition: transform 0.3, box-shadow 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0px 10px rgba(0,0,0,0.2);
+} */
+
+.card1{
+    background-color: #dafdcf;
+    border:1px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    -webkit-transition: background-color 1s linear;
+    transition: background-color 1s linear;
+}
+
+.card1:hover{
+    background-color: #f8eca9;
+}
+
+.card2{
+    background-color: #dafdcf;
+    border:1px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    -webkit-transition: font-size 3s ease;
+    transition: font-size 1s ease;
+    
+}
+
+.card2:hover{
+    font-size: 30px;
+}
+
+.card3{
+    background-color: #dafdcf;
+    border:1px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    -webkit-transition: color 1s linear;
+    transition: color 1s linear;
+}
+
+.card3:hover{
+    color:yellow;
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card4{
+    background-color: #dafdcf;
+    border:1px solid #ff0000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.card4:hover{
+    line-height: 100px;
+}
+
+.card5{
+    background-color: #dafdcf;
+    border:1px solid #ff0000;
+    border-radius:20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.card5:hover{
+    border-radius: 0px;
+}
+
+.card6{
+    background-color: #dafdcf;
+    border:1px solid #ff0000;
+    border-radius:10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.card6:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+
+.card7{
+    background-color: #dafdcf;
+    border:1px solid #ff0000;
+    border-radius:10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.card7:hover{
+    opacity: 0.3;
+}
+
+.card8{
+    background-color: #dafdcf;
+    border-radius:10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.card8:hover{
+    border-style: solid;
+    border-color: #000000;
+    border-color: #ff0303;
+}
+
+.card9{
+    background-color: #dafdcf;
+    border:1px solid #ff0000;
+    border-radius:10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.card9:hover{
+    margin:80px;
+}
+
+.card10{
+    background-color: #dafdcf;
+    border:1px solid #ff0000;
+    border-radius:10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width:250px;
+    overflow: hidden;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.card10:hover{
+    padding:30px;
+}
+
+.card-content{
+    padding: 15px;
+    text-align: center;
+
+}
+
+.card-container img{
+    width: 100%;
+    height:auto;
+}
+
+.card-content h2{
+    font-family: Elaine;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+
+}
+
+.card-content p{
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+
+}
+
